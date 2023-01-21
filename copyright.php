@@ -548,8 +548,8 @@
       </div> 
     </section> 
 <br><br><br>
-<div class="row-fluid">
-    <div class="container-fluid" style="display: flex; " >
+<div class="row">
+    <div class="container" style="display: flex; " >
         <!-- <div class="col-lg-6 col-sm-6"></div> -->
         <div class="col-lg-6 col-sm-6">
             <h3 style="text-align: center;">Procedure for registration of a logo / monogram </h3>
@@ -562,6 +562,121 @@
          </div>
     </div>
 </div>                                                                   
+
+
+    <div class="row"style="background-image: url(images1/bkwhite.jpg);">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+              <div class="section-title text-center wow zoomIn">
+                  <h2 style="text-align: center;font-family: Lato-Medium;
+                  font-weight: 900!important;
+                  position: relative;
+                  margin-bottom: 30px;
+                  text-shadow: 0px 3px 12px #c3c3c3;">Frequently Asked Questions</h2>
+                  <span></span>
+                  <p>If you have any doubts regarding Trademark then this article based on FAQs on Trademark Registration in India will clear all your doubts.</p>
+              </div>
+          </div>
+      </div>
+      <div class="row">               
+          <div class="col-md-12">
+              <div class="panel-group accordion" id="accordion" role="tablist" aria-multiselectable="true">
+                  <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="headingOne">
+                          <h4 class="panel-title">
+                              <a role="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                  What is copyright ?
+                              </a>
+                          </h4>                    
+
+                      </div>
+
+                      <div id="collapseOne" class="collapse show" data-parent="#accordion" data-parent="#accordion">
+                          <div class="panel-body">
+                              <p>Copyright is a right given by the law to creators of literary, dramatic, musical and artistic works and producers of cinematograph films and sound recordings. In fact, it is a bundle of rights including, inter alia, rights of reproduction, communication to the public, adaptation and translation of the work. There could be slight variations in the composition of the rights depending on the work.
+                              </p>
+                          </div>
+                      </div>
+                  </div>            
+                  <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="headingTwo">
+                          <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseTwo" >
+                                 What is a work?
+                             </a>
+                         </h4>
+                     </div>
+                     <div id="collapseTwo" class="panel-collapse collapse"  data-parent="#accordion">
+                      <div class="panel-body">
+                          <p>A work means any of the following, namely, a literary, dramatic, musical or artistic work, a cinematograph film, or a sound recording.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingThree">
+                      <h4 class="panel-title">
+                          <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseThree">
+                              What types of work attract Copyright?
+                          </a>
+                      </h4>
+                  </div>
+                  <div id="collapseThree" class="panel-collapse collapse" data-parent="#accordion">
+                      <div class="panel-body">
+                          <p>The main branches of copyright are literary works (including computer programmes), dramatic works, musical works, artistic works, Cinematographic works and sound recording.
+                          </p>
+                          
+                      </div>
+                  </div>
+              </div>
+              <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingFour">
+                      <h4 class="panel-title">
+                          <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseFour">
+                              What is an artistic work?
+                          </a>
+                      </h4>
+                  </div>
+                  <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour" data-parent="#accordion">
+                      <div class="panel-body">
+                          <p>An artistic work means -</p>
+<ul><li>
+A painting, a sculpture, a drawing (including a diagram, map, chart or plan), an engraving or a photograph, whether or not any such work possesses artistic quality;
+</li>
+</ul>
+<ul><li>
+A work of architecture; and
+</li>
+</ul>
+<ul><li>
+
+Any other work of artistic craftsmanship.</ul>
+</li>
+                      </div>
+                  </div>
+              </div>
+              <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingFive">
+                      <h4 class="panel-title">
+                          <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseFive">
+                              How is Copyright obtained?
+                          </a>
+                      </h4>
+                  </div>
+                  <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordion">
+                      <div class="panel-body">
+                          <p>Copyright in a work comes into existence automatically when the work is created. However, the copyright application should be filed as an evidence of ownership of the work.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+         </div> 
+      </div>                                                                               
+      </div><!--- END COL -->     
+  </div><!--- END ROW -->  
+  
+
 
     <footer class="container-fluid" id="gtco-footer">
        <div class="container">

@@ -339,7 +339,7 @@
 <br><br><br>
 <div class="row content">   
  <div class="container" style="display: flex;" >    
-    <div class="col-lg-3 col-sm-6"> 
+    <div class="col-lg-3 col-sm-6"  data-aos="fade-right"data-aos-offset="350"data-aos-easing="ease-in-sine"> 
         <div class="menu" id="menu"style="position: sticky; top: 60px;" >
             <a href="#topic1" style="text-decoration: none;" >
                 <div class="list"><span class="light"></span><span>Patent</span></div>
@@ -353,7 +353,7 @@
 
         </div> 
     </div>
-    <div class="col-lg-6 col-sm-6" >
+    <div class="col-lg-6 col-sm-6"   data-aos="fade-up"data-aos-duration="500" data-aos-offset="350"data-aos-easing="ease-in-sine" >
         <div id="topic1" style="margin-top:20px;">
             <h4>What is Patent ? </h4>
             <p>Patent is a major part of Intellectual Property which grants its
@@ -394,9 +394,84 @@
             based around the invention.</p>
         </div>
     </div>
-    <div class="col-lg-3">  </div>
-</div>    
-<!-- </div>   -->
+    <div class="col-lg-3 col-sm-6" data-aos="fade-left"data-aos-offset="350"data-aos-easing="ease-in-sine">
+      <div class="container "style="position: sticky; top: 100px;" >
+      <div class="row">
+
+          <form method="post" action="send.php" class="form-horizontal" role="form" id="LeadsForm" >
+            <!-- <i class="fas fa-paper-plane"></i> -->
+            <!-- <span class="text-success"style="display: flex;justify-content: center;"><?php if($_SESSION['success']){echo $_SESSION['success'];} ?></span> -->
+            <div class="input-group">
+              <!-- <label>Full Name</label> -->
+              <input type="text" name="name" placeholder="Enter your name"  id="contact_name" onkeyup="validatName()" >
+              <span id="name_error"><?php echo $nameErr; ?></span>
+            </div>
+
+            <div class="input-group">
+              <!-- <label>Phone No.</label> -->
+              <input type="tel" name="contactno" placeholder="123 456 7890" id="contact_phone" onkeyup="validatPhone()" >
+              <span id="phone_error"class="text-danger"><?php echo $contactnoErr; ?></span>
+            </div>
+
+            <div class="input-group">
+              <!-- <label>Email Id</label> -->
+              <input type="email" name="email" placeholder="Enter Email" id="contact_email" onkeyup="validatEmail()" >
+              <span id="email_error"class="text-danger"><?php echo $emailErr; ?></span>
+            </div>   
+            <br>
+            <div class="input-group" style="max-width:88% ;">
+             <!-- <label class="">Services </label> -->
+             <!-- <div class="col-lg-12"> -->
+               <select  name="services[]" class="form-control">
+                 <option value="">--Please choose an option--</option>
+                 <option value="Trademark" <?php if(in_array('Trademark',$alltypeOfServices)) {  echo "selected";}else{echo "";}  ?>>Trademark</option>
+                 <option value="Copyright" <?php if(in_array('Copyright',$alltypeOfServices)) {  echo "selected";}else{echo "";}  ?>>Copyright</option>
+                 <option value="Patent" <?php if(in_array('Patent',$alltypeOfServices)) {  echo "selected";}else{echo "";}  ?>>Patent</option>
+                 <option value="Company Formation" <?php if(in_array('Company Formation',$alltypeOfServices)) {  echo "selected";}else{echo "";}  ?>>Company Formation</option>
+                 <option value="ISO" <?php if(in_array('ISO',$alltypeOfServices)) {  echo "selected";}else{echo "";}  ?>>ISO</option>
+                 <option value="Website Design" <?php if(in_array('Website Design',$alltypeOfServices)) {  echo "selected";}else{echo "";}  ?>>Website Design</option>
+
+               </select>
+               <span class="text-danger"><?php echo $typeOfSerrvicesErr; ?></span>
+               <!-- </div> -->
+             </div>
+             <!-- <br> -->
+
+             <div class="input-group">
+              <!-- <label>City</label> -->
+              <input type="text" name="city" placeholder="Enter City name"  id="contact_name" onkeyup="validatCity()" >
+              <span id="city_error"class="text-danger"><?php echo $cityErr; ?></span>
+            </div>   
+
+              <!-- <div class="input-group">
+                <label>Your Message</label>
+                <textarea rows="5" placeholder="Enter your message" id="contact_massage" onkeyup="validatMassage()"></textarea>
+                <span id="massage_error"></span>
+              </div> -->
+
+              <div class="input-group">
+                <!-- <label for="location" class="col-sm-3 control-label">Generate OTP:</label> -->
+                <!-- <div class="col-sm-12"> -->
+                 <!-- <input type="text" id="otp" name="otp" placeholder="otp" class="form-control"  >
+                 <span><strong>Note : </strong> Please Verify Mobile No. To submit the form. <a href="javascript:void(0)" onclick="SendOtp()">Verify</a></span>
+                 <span class="text-danger"><?php echo $otpErr; ?></span> -->
+                 <!-- <br>
+                   <br> -->
+                   <!-- <div   class="col-sm-12" > -->
+                    <input id="button" type="submit" name="save" class="" value="Submit">
+                    <!-- </div> -->
+
+                  </div>
+
+                  <!-- <button>Submit</button> -->
+                  <span id="submit-error" id="contact_submit" onkeyup="validatSubmit()"></span>
+
+                </form>
+              </div>
+            </div>
+          </div>
+  </div>    
+</div>  
 <br><br><br>
 <div class="row-fluid">
     <div class="container-fluid"style="display:flex;">
@@ -409,6 +484,117 @@
             <img src="images1/patentProcess.png" alt=""></div>
          </div>
 </div>                                                                   
+
+
+  <div class="row"style="background-image: url(images1/bkwhite.jpg);">
+  <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="section-title text-center wow zoomIn">
+                <h2 style="text-align: center;font-family: Lato-Medium;
+                font-weight: 900!important;
+                position: relative;
+                margin-bottom: 30px;
+                text-shadow: 0px 3px 12px #c3c3c3;">Frequently Asked Questions</h2>
+                <span></span>
+                <p>If you have any doubts regarding Trademark then this article based on FAQs on Trademark Registration in India will clear all your doubts.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">               
+        <div class="col-md-12">
+            <div class="panel-group accordion" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                What is a patent?
+                            </a>
+                        </h4>                    
+
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" data-parent="#accordion" data-parent="#accordion">
+                        <div class="panel-body">
+                            <p>A patent is a statutory right for an invention granted by the State for a limited period of time, generally 20 years. The patent owner (patentee) enjoys monopoly rights and can legally exclude others from selling the patented product or process without his consent.
+                            </p>
+                        </div>
+                    </div>
+                </div>            
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseTwo" >
+                               What are the requirements for applying for a patent?
+                           </a>
+                       </h4>
+                   </div>
+                   <div id="collapseTwo" class="panel-collapse collapse"  data-parent="#accordion">
+                    <div class="panel-body">
+                        <p>The requirements for applying for a patent are as follows.The invention must be novel
+                          It must be non-obvious to a person skilled in the art.
+                          It should have capability of an industrial Application.
+                          It must not fall within the provision of Sec 3 & 4 of the patent Act 1970.
+                          The applicant must disclose fully the methods of making the product or description of the process.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseThree">
+                            What are the documents required for applying for a patent?
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" data-parent="#accordion">
+                    <div class="panel-body">
+                        <p>TThe following are the requirements for applying for patent application;
+                        </p>
+                        <p>
+                            Detailed description of the invention complete with diagrams & drawings
+                        </p>
+                        <p>
+                            Details of the same invention/ Substantial same invention applied in other country PCT.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingFour">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseFour">
+                            What are the advantages of PCT?
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour" data-parent="#accordion">
+                    <div class="panel-body">
+                        <p>PCT facilitates obtaining protection in many countries (member countries of PCT) at a time. Saves time and effort of the applicant seeking protection in multiple jurisdictions. The applicant has time of up to 30/31 months to decide as to which countries he wants to apply for patent.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingFive">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseFive">
+                            What is the term of a patent? How many years the patent is valid?
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordion">
+                    <div class="panel-body">
+                        <p>The term of a patent is generally 20 years from the date of application.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div> 
+    </div>                                                                               
+    </div><!--- END COL -->     
+</div><!--- END ROW -->        
+
 
 <footer class="container-fluid" id="gtco-footer">
  <div class="container">
@@ -893,6 +1079,12 @@ $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
     $curr.addClass("active");
     $curr.prevAll().addClass("visited");
 });
+</script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
 </script>
 
 <!--  -->

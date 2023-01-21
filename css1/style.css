@@ -1002,6 +1002,23 @@ color: #ffb900;;
   }   
 }
 
+.menu li:hover>ul {
+    visibility: visible;
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.menu ul ul {
+    left: 220px;
+    top: 0;
+    visibility: hidden;
+    opacity: 0;
+    transform: translate(20px,20px);
+    transition: all .2s ease-out;
+}
+
+
+
 
 
        .menu div {
@@ -1835,7 +1852,7 @@ style="position: sticky; top: 100px;"
 
 
 
-++++++++++++++++++++++++++++++++++++++============Start Index card css ======================================++++++++++++++++++++++++++++++
+/*++++++++++++++++++++++++++++++++++++++============Start Index card css ======================================++++++++++++++++++++++++++++++*/
 
 
                   body{
@@ -2211,3 +2228,5 @@ style="position: sticky; top: 100px;"
 .breadcrumb-item a{
   color:#ffb900;
 }
+
+

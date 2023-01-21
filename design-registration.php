@@ -575,15 +575,20 @@
 
 
         <br><br><br><br>
+        <div class="row"style="background-image: url(images1/bkwhite.jpg);">
         <div class="container">
           <div class="row">
-            <div class="col-md-12">
-              <div class="section-title text-center wow zoomIn">
-                <h1>Frequently Asked Questions</h1>
-                <span></span>
-                <p>If you have any doubts regarding Trademark then this article based on FAQs on Trademark Registration in India will clear all your doubts.</p>
+              <div class="col-md-12">
+                  <div class="section-title text-center wow zoomIn">
+                      <h2 style="text-align: center;font-family: Lato-Medium;
+                      font-weight: 900!important;
+                      position: relative;
+                      margin-bottom: 30px;
+                      text-shadow: 0px 3px 12px #c3c3c3;">Frequently Asked Questions</h2>
+                      <span></span>
+                      <p>If you have any doubts regarding Trademark then this article based on FAQs on Trademark Registration in India will clear all your doubts.</p>
+                  </div>
               </div>
-            </div>
           </div>
           <div class="row">               
             <div class="col-md-12">
@@ -592,7 +597,7 @@
                   <div class="panel-heading" role="tab" id="headingOne">
                     <h4 class="panel-title">
                       <a role="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                        What is Trademark?
+                        What is an industrial design?
                       </a>
                     </h4>                    
 
@@ -600,7 +605,7 @@
 
                   <div id="collapseOne" class="collapse show" data-parent="#accordion" data-parent="#accordion">
                     <div class="panel-body">
-                      <p>The term ‘Trademark’ refers to the brand or logo which represents the business. It is a visual symbol of a signature, name, device, label, numerals or combination of colors used by the owner of the trademark for goods or services or any other articles of commerce. Moreover, it is meant to differentiate among the similar products or services originated from the different business. A trademark can be a word, wrapper, packaging labels or a tagline or a combination of these. For example Coca-Cola and Pepsi.
+                      <p>Industrial design is a composition of two-dimensional lines or colors, or any three dimensional shape that gives an industrial product, or a product of traditional crafts, a special appearance provided that this is not only for functional or technical purpose including textile designs. A design is what makes an article attractive and appealing. Hence, it adds to the commercial value of a product and increases its marketability.
                       </p>
                     </div>
                   </div>
@@ -609,13 +614,13 @@
                   <div class="panel-heading" role="tab" id="headingTwo">
                     <h4 class="panel-title">
                       <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseTwo" >
-                       Who can apply for the Trademark?
+                      What is the Procedure for registration of a Design in India?
                      </a>
                    </h4>
                  </div>
                  <div id="collapseTwo" class="panel-collapse collapse"  data-parent="#accordion">
                   <div class="panel-body">
-                    <p>Any Individual, Company, Proprietor or legal entity who can claim to be an owner of the Trademark can apply for it. The trademark Registration formalities can be done in 18 to 24 months after that you can start using the ‘TM’ symbol. Once your trademark registry is done and registration certificate is issued then you may use ® (registered symbol) next to your trademark. The validity of a registered trademark is for 10 years from the date of filing and that can be renewed from time to time. </p>
+                    <p>Any person, who claims to be the owner of a new or original design that is not previously published in India, can apply for registration of design. The application can be made with the Indian Patent Office; an examination report may be issued. Within a stipulated period of six months from the date of filing of a design application a reply is required to be filed in response to the objections raised in the examination report, the response may be accepted or rejected by the controller. If rejected an opportunity for amending the application or submitting further replies is provide. Once the objection is complied with, the application is accepted and a certificate of registration is issued. </p>
                   </div>
                 </div>
               </div>
@@ -623,20 +628,16 @@
                 <div class="panel-heading" role="tab" id="headingThree">
                   <h4 class="panel-title">
                     <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseThree">
-                      What are the types of Trademark?
+                      Where and How to apply for Design Registration?
                     </a>
                   </h4>
                 </div>
                 <div id="collapseThree" class="panel-collapse collapse" data-parent="#accordion">
                   <div class="panel-body">
-                    <p>There are several types of Trademark which are given below:
-                    </p>
                     <p>
-                      A name of a person or surname or predecessor in business or the signature of the person.
-                      The coined word or an invented word or any dictionary words that are not being directly descriptive of the character.
-                      Alphanumeric or letter or any combination thereof.
-                      Image, symbol, monograms, 3-dimensional shapes etc
-                      Sound marks in audio format
+                      Any person interested may apply for a registration of Design by filing an application on the prescribed format along with the prescribed fees.
+                    </p>
+                    <p> An application for registration of Design can be filed at Kolkata it is a head office for handling the Design Application.
                     </p>
                   </div>
                 </div>
@@ -645,17 +646,15 @@
                 <div class="panel-heading" role="tab" id="headingFour">
                   <h4 class="panel-title">
                     <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseFour">
-                      What are the functions of Trademark?
+                     What is a Register of Designs?
                     </a>
                   </h4>
                 </div>
                 <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour" data-parent="#accordion">
                   <div class="panel-body">
                     <p>Following are the functions of Trademark </p>
-                    <p>It identifies the product or the services and its sources. </p>
-                    <p>It provides a guarantee for its quality </p>
-                    <p>It helps in advertising the products and services. </p>
-                    <p>Read more : Classes of Trademark Goods and Services </p>
+                    <p>The Register of Designs is a document maintained by The Patent Office, Kolkata as required . </p>
+                    <p>It contains the design number, class number, date of filing, name and address of Proprietor and such other matters as would affect the validity of proprietorship of the design and it is open for public inspection on payment of prescribed fee & extract from register may also be obtained on request with the prescribed fee. </p>
                   </div>
                 </div>
               </div>
@@ -663,18 +662,14 @@
                 <div class="panel-heading" role="tab" id="headingFive">
                   <h4 class="panel-title">
                     <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseFive">
-                      What are the documents required for Trademark Registration?
+                     Design Infringement
                     </a>
                   </h4>
                 </div>
                 <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordion">
                   <div class="panel-body">
-                    <p>Following are the documents which are required for the Trademark registration: </p>
-                    <p>Copy of Trademark or logo </p>
-                    <p>Applicant details like name, address, and nationality and for the company it requires the state of incorporation </p>
-                    <p>Goods or services to register </p>
-                    <p>Date of first use of the trademark in India. </p>
-                    <p>Power of attorney which is to be signed by the applicant. </p>
+                    <p>Registered design can be infringed by the unauthorized manufacture for commercial use or the unauthorized sale or hire of articles in cooperating or embodying the registered design.</p>
+                    <p>Legal action can only be taken against an infringer once the certificate of Registration has issued. Court proceedings are initiated in the High Court. Appeals are possible to the court of Appeal.</p>
                   </div>
                 </div>
               </div>
